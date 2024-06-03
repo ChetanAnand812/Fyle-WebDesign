@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer Assignment</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <!-- Hero Content -->
+    <div class="hero">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 order-lg-1">
+                    <div class="hero-content">
+                        <h1>Award winning</h1>
+                        <h2>Digital Marketing Agency</h2>
+                        <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque
+                            vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et
+                            fermentum.</p>
+                        <a href="#" class="btn" id="openForm">CONTACT US</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2">
+                    <div class="hero-image">
+                        <img src="images/hero.png" alt="Hero Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pop-up Form -->
+    <div class="popup-form" id="popupForm">
+        <div class="form-container">
+            <h2 class="text-left">Talk to us</h2>
+            <form id="contactForm" action="https://getform.io/f/qbloklka" method="POST">
+                <div class="form-group">
+                    <input type="email" class="form-control form-control-plaintext border-bottom" id="email"
+                        name="email" placeholder="Work Email*" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control form-control-plaintext border-bottom" id="firstName"
+                            name="firstName" placeholder="First Name*" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control form-control-plaintext border-bottom" id="lastName"
+                            name="lastName" placeholder="Last Name*" required>
+                    </div>
+                </div>
+                <div class="form-group form-check text-left">
+                    <input type="checkbox" class="form-check-input" id="consent" name="consent" required>
+                    <label class="form-check-label" for="consent">I agree to Fyle's terms and conditions, and provide
+                        consent to send me communication.</label>
+                </div>
+                <button type="submit" class="btn btn-danger btn-block">Contact Us</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Services Content -->
+    <div class="services">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 text-left">
+                    <h2>WHAT WE DO</h2>
+                    <h3>Services provide <br> for you</h3>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit
+                        fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <div class="gallery">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="image-slider">
+                            <div class="images">
+                                <img src="images/1.png" alt="Image 1" class="img-fluid" />
+                                <img src="images/2.png" alt="Image 2" class="img-fluid" />
+                                <img src="images/3.png" alt="Image 3" class="img-fluid" />
+                                <img src="images/4.png" alt="Image 4" class="img-fluid" />
+                                <img src="images/5.png" alt="Image 5" class="img-fluid" />
+                                <img src="images/6.png" alt="Image 6" class="img-fluid" />
+                                <img src="images/7.png" alt="Image 7" class="img-fluid" />
+                                <img src="images/8.png" alt="Image 8" class="img-fluid" />
+                                <img src="images/9.png" alt="Image 9" class="img-fluid" />
+                                <img src="images/10.png" alt="Image 10" class="img-fluid" />
+                                <img src="images/11.png" alt="Image 11" class="img-fluid" />
+                                <img src="images/12.png" alt="Image 12" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dots-container text-left">
+                    <span class="dot" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Details Content -->
+    <div class="details">
+        <div class="container-fluid text-center">
+            <h2>WHY CHOOSE US</h2>
+            <h3>How it works</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="icon">
+                        <img src="images/icons/icon_1.png" alt="Icon 1">
+                    </div>
+                    <div class="details-content">
+                        <h4>Clarified Vision & Target</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon">
+                        <img src="images/icons/icon_2.png" alt="Icon 2">
+                    </div>
+                    <div class="details-content">
+                        <h4>High Performance</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon">
+                        <img src="images/icons/icon_3.png" alt="Icon 3">
+                    </div>
+                    <div class="details-content">
+                        <h4>Maintain Security</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon">
+                        <img src="images/icons/icon_4.png" alt="Icon 4">
+                    </div>
+                    <div class="details-content">
+                        <h4>Better Strategy & Quality</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Section -->
+            <div class="project">
+                <h2>OUR PROJECT</h2>
+                <h3>Why We Are Best</h3>
+                <div class="project-content">
+                    <img id="project-img" src="images/proj1.png" alt="Project Image">
+                    <div class="project-details">
+                        <div data-img="images/proj1.png">
+                            <h4>Genderless Kei - Japan's Hot</h4>
+                            <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of
+                                services.
+                            </p>
+                        </div>
+                        <div data-img="images/proj2.png">
+                            <h4>Better Strategy & Quality</h4>
+                            <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of
+                                services.
+                            </p>
+                        </div>
+                        <div data-img="images/proj3.png">
+                            <h4>Genderless Kei - Japan's Hot</h4>
+                            <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of
+                                services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Growth Section -->
+    <div class="growth">
+        <div class="continer-fluid text-center">
+            <h2>EXPERTS GROWTH</h2>
+            <h3>OUR COMPANY GROWTH</h3>
+            <div class="growth-cards">
+                <div class="growth-card">
+                    <div class="icon">
+                        <img src="images/icons/heart.png" alt="Heart Icon">
+                    </div>
+                    <h4>199+</h4>
+                    <p>Satisfied Customers</p>
+                </div>
+                <div class="growth-card">
+                    <div class="icon">
+                        <img src="images/icons/clock.png" alt="Clock Icon">
+                    </div>
+                    <h4>1591+</h4>
+                    <p>Days of Operation</p>
+                </div>
+                <div class="growth-card">
+                    <div class="icon">
+                        <img src="images/icons/check.png" alt="Check Icon">
+                    </div>
+                    <h4>283+</h4>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="growth-card">
+                    <div class="icon">
+                        <img src="images/icons/trophy.png" alt="Trophy Icon">
+                    </div>
+                    <h4>75+</h4>
+                    <p>Awards Won</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Section -->
+    <div class="feedback">
+        <p class="container-fluid text-center">
+        <h2>Client's Feedback</h2>
+        <h3>People's Say About Us !</h3>
+        <div class="quote">
+            <p> Jannat Tumpa - The standard chunk of Lorem Ipsum used since the 1500s is
+                reproduced below for those interested. Sections Bonorum et Malorum original.
+                <br><br>
+                <span class="name">JANNAT TUMPA</span>
+                <span class="position"> - COO, AMERIMAR ENTERPRISES, INC.</span>
+            </p>
+            <img src="images/quotes.png" alt="Quote Marks">
+        </div>
+        </p>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer d-flex justify-content-center">
+        <img src="images/group.png" alt="Group Image" />
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
