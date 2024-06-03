@@ -4,7 +4,10 @@ This is a small website homepage created for an internship application. The proj
 
 ## How to run the project
 
-1. Clone this repository to your local machine. [Repo](https://github.com/ChetanAnand812/Fyle-WebDesign.git)
+1. Clone this repository to your local machine. 
+```bash
+git clone https://github.com/ChetanAnand812/Fyle-WebDesign.git
+
 2. Use Live Server extension in Visual Studio Code to run the project.
 3. Click [here](https://chetananand812.github.io/Fyle-WebDesign/) to directly go to the website.
 
