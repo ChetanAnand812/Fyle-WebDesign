@@ -6,7 +6,7 @@ This is a small website homepage created for an internship application. The proj
 
 1. Clone this repository to your local machine. [Repo](https://github.com/ChetanAnand812/Fyle-WebDesign.git)
 2. Use Live Server extension in Visual Studio Code to run the project.
-3. Click [here](https://web-design-murex.vercel.app/) to directly go to the website.
+3. Click [here](https://chetananand812.github.io/Fyle-WebDesign/) to directly go to the website.
 
 ## Dependencies
 
